@@ -17,5 +17,23 @@ x+y
 # rm(y)
 
 # Data type
+string <- "Namchok"
+numeric <- 123
+char <- 'A'
+
 # Check data type
 class(x)
+class(string)
+class(numeric)
+class(char)
+
+# Test data 
+
+# return True
+1==1
+
+# return 3.141593
+pi
+
+
+
