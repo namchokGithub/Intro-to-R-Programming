@@ -26,6 +26,7 @@ class(x)
 class(string)
 class(numeric)
 class(char)
+class(TRUE)
 
 # Test data 
 
