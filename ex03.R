@@ -16,3 +16,12 @@ b <- c(1, 0, 0, 1, 0)
 vec1 <- 1:10
 vec2 <- rnorm(100)
 
+rep(c(1, 2, 3), 10) # replicate
+seq(0, 100, 5) # sequence
+
+# logical vector
+c(TRUE, FALSE, FALSE)
+c(T, F, T)
+
+# charactor vector
+names <- c("Namchok", "Athiruj", "Jiramate")
