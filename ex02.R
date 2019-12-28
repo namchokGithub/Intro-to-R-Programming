@@ -12,11 +12,10 @@ x+y
 
 # Assing <- or =
 
-x = 3
-y = 2
-
-x+y
-
 # Object
-rm(x)
-rm(y)
+# rm(x)
+# rm(y)
+
+# Data type
+# Check data type
+class(x)
