@@ -18,4 +18,14 @@ retired <- c(T, F, T)
 
 # create list
 myList <- list(names, age, clubs, retired)
-print(myList)
+# print(myList)
+
+# Creat list with name
+myListWithName <- list(
+    player_names = names
+    ,player_age = age
+    ,player_club = clubs
+    ,retired = retired
+)
+print(myListWithName)
+
