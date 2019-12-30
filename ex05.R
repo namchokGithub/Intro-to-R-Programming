@@ -21,3 +21,7 @@ colnames(my_mat_row) <- c("A", "B", "C")
 
 # Change row name
 rownames(my_mat_row) <- c("row1", "row2", "row3")
+
+# Can use + - * /
+my_mat <- my_mat_row
+my_mat2 <- my_mat * 2
