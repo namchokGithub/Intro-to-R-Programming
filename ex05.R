@@ -18,3 +18,6 @@ my_mat_row <- matrix(1:9 , nrow = 3, byrow = TRUE)
 
 # Change column name
 colnames(my_mat_row) <- c("A", "B", "C")
+
+# Change row name
+rownames(my_mat_row) <- c("row1", "row2", "row3")
