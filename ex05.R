@@ -15,3 +15,6 @@ my_mat_col <- matrix(1:9, nrow = 3)
 
 # Follow by row
 my_mat_row <- matrix(1:9 , nrow = 3, byrow = TRUE)
+
+# Change column name
+colnames(my_mat_row) <- c("A", "B", "C")
