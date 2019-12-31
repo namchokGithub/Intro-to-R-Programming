@@ -15,3 +15,5 @@ cities <- c("BKK", "TOKYO", "LONDON")
 countries <- c("TH", "JPN", "UK")
 population <- c(10000, 20000, 34000)
 
+# Create dataframe
+dataFrame <- data.frame(cities, countries, population)
