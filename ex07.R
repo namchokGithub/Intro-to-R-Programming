@@ -26,3 +26,33 @@ help("fivenum")
 
 y <- 1:1000
 fivenum(y)
+
+
+# User-defined funciton
+
+# No argument
+fun01 <- function() {
+    print("Hello world")
+}
+
+# One argument
+fun02 <- function(x) {
+    print(x^2)
+}
+
+# Two argument
+fun03 <- function(a, b) {
+    return (a+b)
+}
+fun03(b=10, a=12)
+
+
+fun04 <- function(a, b=100) {
+    return (a+b)
+}
+fun04(23)
+
+
+
+
+
