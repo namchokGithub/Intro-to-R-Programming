@@ -5,7 +5,7 @@
 
 # IF
 
-X <- 9 
+x <- 12
 
 if(x %% 2 == 0) {
     print("Even number")
@@ -20,3 +20,11 @@ oddOrEven <- function(x) {
         print("Odd number")
     }
 }
+
+# Function ifelse
+a <- c(1, 3, 5, 5, 2, 6)
+ifelse(a%%2==0, "Even", "Odd")
+
+# User function
+oddOrEven(x)
+
